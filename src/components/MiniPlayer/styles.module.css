@@ -361,15 +361,16 @@
     font-size: 16px;
   }
 
-  .title {
+  .title, .titleL {
     font-size: 16px;
   }
 
-  .cover {
+  .cover{
     width: 110px;
     height: 110px;
     margin-bottom: 5px;
   }
+
 }
 
 @media (max-width: 887px) {
@@ -384,15 +385,15 @@
     height: 30px;
   }
 
-  .time {
+  .time, .timeL {
     padding-right: 5px;
   }
 
-  .length {
+  .length, .lengthL {
     padding-left: 9px;
   }
 
-  .progress[type="range"] {
+  .progress[type="range"], .progressL[type="range"] {
     width: 75%;
   }
 
@@ -407,7 +408,7 @@
     font-size: 16px;
   }
 
-  .title {
+  .title, .titleL {
     font-size: 16px;
   }
 
@@ -430,15 +431,15 @@
     height: 30px;
   }
 
-  .time {
+  .time, .timeL  {
     padding-right: 4px;
   }
 
-  .length {
+  .length, .lengthL {
     padding-left: 7px;
   }
 
-  .progress[type="range"] {
+  .progress[type="range"], .progressL[type="range"]  {
     width: 70%;
   }
 
@@ -453,7 +454,7 @@
     font-size: 14px;
   }
 
-  .title {
+  .title, .titleL {
     font-size: 12px;
   }
 
@@ -465,7 +466,7 @@
 }
 
 @media (max-width: 705px) {
-  .audioPlayer {
+  .audioPlayer, .audioPlayerL {
     height: max-content;
 
     grid-template-columns: 8% 92%;
@@ -481,15 +482,15 @@
     height: 28px;
   }
 
-  .time {
+  .time, .timeL {
     padding-right: 3px;
   }
 
-  .length {
+  .length, .lengthL {
     padding-left: 6px;
   }
 
-  .progress[type="range"] {
+  .progress[type="range"], .progressL[type="range"] {
     width: 65%;
   }
 
@@ -504,7 +505,7 @@
     font-size: 13px;
   }
 
-  .title {
+  .title, .titleL{
     font-size: 15px;
   }
 
@@ -516,7 +517,7 @@
 }
 
 @media (max-width: 684px) {
-  .audioPlayer {
+  .audioPlayer, .audioPlayerL {
     height: max-content;
 
     grid-template-columns: 8% 92%;
@@ -537,15 +538,15 @@
     height: 28px;
   }
 
-  .time {
+  .time, .timeL {
     padding-right: 3px;
   }
 
-  .length {
+  .length, .lengthL{
     padding-left: 6px;
   }
 
-  .progress[type="range"] {
+  .progress[type="range"], .progressL[type="range"]  {
     width: 60%;
   }
 
@@ -560,13 +561,13 @@
     font-size: 13px;
   }
 
-  .title {
+  .title, .titleL{
     font-size: 15px;
   }
 }
 
 @media (max-width: 574px) {
-  .audioPlayer {
+  .audioPlayer, .audioPlayerL {
     height: max-content;
     grid-template-columns: 6% 94%;
   }
@@ -593,15 +594,15 @@
     height: 30px;
   }
 
-  .time {
+  .time, .timeL {
     padding-right: 3px;
   }
 
-  .length {
+  .length, .lengthL {
     padding-left: 6px;
   }
 
-  .progress[type="range"] {
+  .progress[type="range"], .progressL[type="range"]  {
     width: 60%;
   }
 
@@ -617,7 +618,7 @@
     padding-bottom: 20px;
   }
 
-  .title {
+  .title, .titleL {
     font-size: 17px;
     padding-bottom: 10px;
   }
@@ -637,15 +638,15 @@
     height: 27px;
   }
 
-  .time {
+  .time, .timeL {
     padding-right: 3px;
   }
 
-  .length {
+  .length, .lengthL {
     padding-left: 6px;
   }
 
-  .progress[type="range"] {
+  .progress[type="range"], .progressL[type="range"]  {
     padding-top: 9%;
     width: 60%;
   }
@@ -673,15 +674,15 @@
     height: 24px;
   }
 
-  .time {
+  .time, .timeL {
     padding-right: 3px;
   }
 
-  .length {
+  .length, .lengthL {
     padding-left: 6px;
   }
 
-  .progress[type="range"] {
+  .progress[type="range"], .progressL[type="range"]  {
     padding-top: 9%;
     width: 60%;
   }
@@ -699,7 +700,7 @@
     width: 90px;
   }
 
-  .title {
+  .title, .titleL {
     font-size: 16px;
     padding-bottom: 10px;
     width: 90px;
@@ -732,15 +733,15 @@
     height: 20px;
   }
 
-  .time {
+  .time, .timeL {
     padding-right: 3px;
   }
 
-  .length {
+  .length, .lengthL {
     padding-left: 6px;
   }
 
-  .progress[type="range"] {
+  .progress[type="range"], .progressL[type="range"]  {
     padding-top: 9%;
     width: 60%;
   }
@@ -759,7 +760,7 @@
     
   }
 
-  .title {
+  .title, .titleL{
     font-size: 14px;
     padding-bottom: 10px;
     width: 90px;
