@@ -77,7 +77,6 @@ class UserModel {
     signUp(values) {
         this.fromJSON(values)
         localStorage.setItem(STORAGE_USER, JSON.stringify(values))
-        // const arr = JSON.parse(localStorage.getItem(STORAGE_USERS))
     }
 
     logOut() {
@@ -86,7 +85,7 @@ class UserModel {
         this.userName = ''
         this.logo = ''
         this.playlists = ''
-        this.volume = 0
+        this.volume = 80
         localStorage.removeItem(STORAGE_USER)
     }
 

@@ -28,15 +28,12 @@ function Settings() {
               <form>
                 
                 <input
-                  // size="1"
                   type="file"
                   name="userAvatar"
-                  // defaultValue=""
                   className={styles.settingsInput}
                 />
               </form>
             </label>
-            {/* <p className={styles.info}> JPG, GIF or PNG. Max size 1mb</p> */}
             <button className={Theme.isThemeDark ?  styles.btnL : styles.btn}> Upload </button>
           </fieldset>
 
@@ -46,11 +43,9 @@ function Settings() {
               <form>
                 
                 <input
-                  // defaultValue="Polina"
                   name="text"
                   type="text"
-                  placeholder="Polina"
-                  // defaultValue=""
+                  placeholder={UserModel.userName}
                   onChange={(eve) => userName = eve.target.value}
                   className={styles.settingsInput}
                 />
@@ -62,11 +57,9 @@ function Settings() {
               <form>
                 
                 <input
-                  // defaultValue="admin123@test.com"
                   name="email"
                   type="email"
-                  // defaultValue=""
-                  placeholder="test@test.com"
+                  placeholder={UserModel.email}
                   onChange={(eve) => email = eve.target.value }
                   className={styles.settingsInput}
                 />
@@ -78,11 +71,8 @@ function Settings() {
               <form>
                 
                 <input
-                  // defaultValue="new password"
                   name="new-password"
-                  // defaultValue=""
                   type="Password"
-                  // value="onChange"
                   placeholder="New Password"
                   onChange={(eve) => password = eve.target.value}
                   className={styles.settingsInput}
@@ -95,9 +85,7 @@ function Settings() {
               <form>
                 
                 <input
-                  // defaultValue="confirm new password"
                   name="confirm password"
-                  //  defaultValue=""
                   type="password"
                   placeholder="Confirm New Password"
                   onChange={(eve) => confirmPass = eve.target.value }
@@ -108,8 +96,6 @@ function Settings() {
             </label>
             <button className={Theme.isThemeDark ?  styles.btnL : styles.btn} onClick={() => UserModel.changeInfo({email,password,userName})}> Save </button>
           </fieldset>
-          {/* <button className={Theme.isThemeDark ?  styles.btnL : styles.btn} onClick={() => UserModel.changeInfo({email,password,userName})}> Save </button> */}
-          {/* </form> */}
         </div>
       </div>
       <Footer />

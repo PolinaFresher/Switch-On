@@ -5,17 +5,10 @@
 
 .author{
     color:#d0d0ee;
-     /* для светлой */
-     /* color:#5b37a8; */
-
 }
 
 .headline {
-   
-     /* для светлой */
-     /* color: rgba(147, 18, 246, 0.338); */
-
-  display: flex;
+display: flex;
   justify-content: center;
     flex-wrap: wrap;
     padding-top: 10%;

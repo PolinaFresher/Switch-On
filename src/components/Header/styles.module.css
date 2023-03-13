@@ -24,8 +24,6 @@
   background: linear-gradient(315deg, #b863e594, #472d517a);
   margin: 3px;
   cursor: pointer;
- /* для светлой */
-  /* background: linear-gradient(315deg, #d900e6b5, #3f04e4cc); */
 
 }
 .picL {
@@ -56,15 +54,6 @@
     #9df8ecc2,
     #f1bff9
   );
-  /* для светлой */
-  /* background: linear-gradient(
-      to right,
-      #2323df,
-      #0b98ef,
-      #e20de5,
-      #11a9ef,
-      #e20de5
-    ); */
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

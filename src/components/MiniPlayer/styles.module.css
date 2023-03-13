@@ -11,8 +11,6 @@
   justify-content: start;
   justify-items: stretch;
   z-index: 999999;
-  /* для светлого */
-  /* background-color:#9b8fc1ad; */
 }
 
 .audioPlayerL {
@@ -113,9 +111,6 @@
   width: max-content;
   color: aliceblue;
   font-family: "Neoteric";
-
-  /* для светлого */
-  /* color: white; */
 }
 
 .timeL,
@@ -194,9 +189,6 @@
 .length {
   padding-left: 20px;
   color: #abe6ff;
-
-  /* для светлого */
-  /* color: white; */
 }
 
 .progress[type="range"] {
@@ -229,9 +221,6 @@
   cursor: pointer;
   background: #e3a6d9;
   border-radius: 1px;
-
-  /* для светлого */
-  /* background: white; */
 }
 .progress[type="range"]::-webkit-slider-thumb {
   height: 26px;
@@ -241,16 +230,11 @@
   cursor: pointer;
   -webkit-appearance: none;
   margin-top: -11px;
-
-  /* для светлого */
-  /* background: #4602dd; */
 }
 
 .progress[type="range"]::-webkit-slider-thumb:active {
   border: 1px solid #564f55;
 
-  /* для светлого */
-  /* border: 1px solid #f2f2f2; */
 }
 
 .background {
@@ -282,10 +266,6 @@
   position: absolute;
   left: 70%;
   bottom: 56%;
-
-  /* для светлого */
-  /* border: 1px solid #f2f2f2;
-    background-color: #927cdad9; */
 }
 
 .volumeBoxActiveL {
@@ -350,16 +330,11 @@
   -webkit-appearance: none;
   margin-top: -6px;
   -webkit-appearance: none;
-
-  /* для светлого */
-  /* background: #441fd9; */
 }
 
 .volumeRange[type="range"]::-webkit-slider-thumb:active {
   border: 1px solid #564f55;
 
-  /* для светлого */
-  /* border: 1px solid #ffffff; */
 }
 
 .volumeRange[type="range"]::-webkit-slider-runnable-track {
@@ -369,8 +344,6 @@
   border-radius: 1px;
   -webkit-appearance: none;
 
-  /* для светлого */
-  /* background: #fcfcfc; */
 }
 
 

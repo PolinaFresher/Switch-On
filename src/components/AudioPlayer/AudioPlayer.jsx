@@ -126,7 +126,6 @@ const AudioPlayer = () => {
     <img className={styles.bg} src={bg} alt="#" title="Customize Background" onClick={() => AudioModel.changeBG()}/>
     <div className={styles.trackInfo}>
         {LyricsRequest.openedLirycs ? <Lirycs /> : <Cover />}
-        {/* <h3 className={styles.artist}>{artist}</h3> */}
         <h3 className={styles.artist} style={{ color: color }}>
             {artist}
           </h3>

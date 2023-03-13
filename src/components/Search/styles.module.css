@@ -49,7 +49,6 @@ margin: 7px;
 .result{
 	color: aliceblue;
 	padding: 3px;
-	/* font-family: "Inconsolata"; */
 	font-family: "Miracle";
 	font-size: 18px;
 	letter-spacing: 1px;
@@ -66,14 +65,6 @@ margin: 7px;
 	background-color: rgba(0, 0, 0, 0.303);
 	border-radius: 50px;
 }
-/*  по нажатию на кнорпку поиск на сайдбрае включить компонент поиск или же стиль .search или же .searchH{
-    visibility: hidden;
-} */
-
-
-/* .searchH{
-	visibility: hidden;
-} */
 
 
 

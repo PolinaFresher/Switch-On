@@ -13,7 +13,6 @@ display: -ms-flexbox;
 display: flex;
 overflow: hidden;
 width: 100%;
-/* height: 40px; */
 height: 70px;
 -webkit-box-pack: start;
 -webkit-justify-content: flex-start;
@@ -55,7 +54,6 @@ background: yellow;
 }
 
 .track_horizontal {
-    /* position: absolute; */
     white-space: nowrap;
     will-change: transform;
     animation: marquee 50s linear infinite;

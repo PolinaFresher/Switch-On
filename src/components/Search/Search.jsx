@@ -21,12 +21,6 @@ function Search() {
     let albums = result.albums
     let tracks = result.tracks
 
-    // result.forEach(element => {
-    //   element.forEach(element => {
-    //     element.artist
-    //   })
-    // })
-
     return (
       <div className={styles.infoBox}>
         <ul className={styles.listResult}>

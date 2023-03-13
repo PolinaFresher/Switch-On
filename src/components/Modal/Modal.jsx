@@ -57,8 +57,6 @@ function Modal () {
                 UserModel.signIn(values.email,values.password)
                 LoginModal.updateState();
                 if(!UserModel.isLoggedIn()){
-                  //как то прокинуть ошибки валидации
-                  
                 } else {
                   setSubmitting(false);
                 }
@@ -153,7 +151,6 @@ function Modal () {
               setTimeout(() => {
                 UserModel.signUp(values.email,values.password,values.password,"logo")
                 if(!UserModel.isLoggedIn()){
-                  //как то прокинуть ошибки валидации
                 } else {
                   setSubmitting(false);
                   LoginModal.updateState();

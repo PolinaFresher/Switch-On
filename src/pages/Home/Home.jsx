@@ -1,6 +1,3 @@
-
-
-
 import { PlaylistRecommendations, Header, Quote, MusicGenres, Artists, ArtistLine, Footer } from "components";
 import { observer } from 'mobx-react-lite'
 import {React}  from "react";

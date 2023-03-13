@@ -21,15 +21,10 @@
 .path {
   fill: none;
   stroke: rgb(212, 165, 230);
-   /* для светлой */
-   /* stroke: rgb(255, 255, 255); */
   stroke-width: 2px;
   cursor: pointer;
   background-color: #3c3e3fb4;
   border-radius: 50%;
-
-   /* для светлой */
-   /* background-color: #000000b4; */
 
 }
 
@@ -97,10 +92,6 @@
   font-size: 16px;
   height: 20px;
   color: #b7deff;
-
-  /* для светлой */
-  /* color:#ffffff; */
-
   position: relative;
   bottom: 28px;
   left: 1px;
@@ -119,10 +110,6 @@
   font-size: 18px;
   height: 20px;
   color: #d8cdff;
-
-  /* для светлой */
-  /* color:#ed05fc; */
-
   position: relative;
   font-weight: 900;
   position: relative;
@@ -139,11 +126,6 @@
   width: 40px;
   height: 480px;
   user-select: none;
-  
-
-  /* для светлой */
-  /* background: #000000c9 ; */
-
   background: #472d51cb;
   backdrop-filter: blur(3px);
   
@@ -167,10 +149,6 @@
   height: 480px;
   border-radius: 12px;
   background: #472d51dd;
-
-/* для светлой */
-  /* background: #000000c9 ; */
-
   backdrop-filter: blur(3px);
   padding: 10px;
   position: fixed;

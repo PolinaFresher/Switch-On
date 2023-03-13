@@ -1,6 +1,5 @@
 .genres {
   height: 300px;
-  /* margin: 18% 85px 0 85px; */
   margin: 13% 105px 0 105px;
   border-radius: 24px;
   background-repeat: no-repeat;
@@ -40,15 +39,11 @@
 
 .genre {
   margin: 7px;
-  /* margin-left: auto;
-  margin-right: auto; */
   background-image: linear-gradient(#00000073 55%, rgba(0, 0, 0, 0.497) 45%),
     url(assets/images/musicgenre.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
-  /* height: 250px;
-  width: 250px; */
   height: 16rem;
   width: 16rem;
   display: flex;
@@ -89,10 +84,7 @@
   margin: 0 auto;
   scroll-behavior: smooth;
   gap: 10px;
-  /* width: 1288px; */
-  /* width: 80rem; */
   max-width: 87rem;
-  /* min-width: 50rem; */
 }
 
 .description {

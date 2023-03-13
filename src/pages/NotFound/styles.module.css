@@ -27,9 +27,7 @@
 
 .buttonHome {
   margin-right: 10px;
-  /* display: flex; */
   text-align: center;
-  /* margin: 30px; */
   padding: 14px 28px;
   height: 50px;
   text-align: center;
@@ -49,8 +47,6 @@
 .buttonBack {
   margin-left: 10px;
   text-align: center;
-  /* margin: 30px; */
-  /* padding: 25px 28px; */
   padding: 14px 28px;
   height: 50px;
   text-align: center;
@@ -84,7 +80,6 @@
 }
 
 .right {
-  /* width: 40rem; */
   display: flex;
   flex-direction: column;
   align-items: center;

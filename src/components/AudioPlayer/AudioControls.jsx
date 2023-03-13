@@ -169,10 +169,6 @@ const AudioControls = ({ navigate, track }) => {
       className={styles.collapse}>
       {Theme.isThemeDark() ? <Collapse className={styles.svg} /> : <CollapseL className={styles.svg} />}
     </button>
-
-
-
-    {/* <img className={styles.background} src={AudioModel.backgroud} alt="" /> */}
   </div>
   )
 };

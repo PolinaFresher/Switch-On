@@ -95,8 +95,6 @@
   font-family: "Anticva-Regular";
   color: #8f8f8f;
   letter-spacing: 3px;
-   /* для светлой */
-   /* color:aliceblue; */
 }
 .headlineL {
   font-size: 16px;
@@ -239,20 +237,6 @@
       
     }
   }
-  /* @media (max-width: 535px) {
-  .playlists,.playlistsL {
-    margin: 2% 13% 0 18%;
-    
-  }
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    
-  }
-  } */
 
   @media (max-width: 425px) {
     .playlist {
