@@ -1,0 +1,166 @@
+.search{
+    box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 4px 12px;
+	gap: 4px;
+	width: 15em;
+    height: 2.1em;
+	border: 1.5px solid #f0b7dd;
+	border-radius: 100px;
+    margin-top: 1.2rem;
+    margin-left: 6rem;
+    color: #f0b7dd;
+	position: relative;
+
+	
+}
+
+
+
+.searchL {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 4px 12px;
+	gap: 4px;
+	width: 15em;
+	height: 2.1em;
+	border: 2px solid #8d00c4;
+	border-radius: 100px;
+	margin-top: 1.2rem;
+	margin-left: 6rem;
+	color: #f0b7dd;
+	position: relative;
+  }
+.list{
+	color: rgb(201, 201, 201);
+	font-family: "Neoteric";
+margin: 7px;
+}
+.pic{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.result{
+	color: aliceblue;
+	padding: 3px;
+	/* font-family: "Inconsolata"; */
+	font-family: "Miracle";
+	font-size: 18px;
+	letter-spacing: 1px;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin-right: 5px;
+	border-bottom: 0.5px solid rgba(0, 0, 0, 0.518);
+	
+
+}
+
+.result:hover, .result:active{
+	background-color: rgba(0, 0, 0, 0.303);
+	border-radius: 50px;
+}
+/*  по нажатию на кнорпку поиск на сайдбрае включить компонент поиск или же стиль .search или же .searchH{
+    visibility: hidden;
+} */
+
+
+/* .searchH{
+	visibility: hidden;
+} */
+
+
+
+
+.searchInput {
+	background-color: transparent;
+	border: none;
+	color: #f0b7dd;
+	padding-left: 3px;
+	font-size: 18px;
+    font-family: "Architun";
+    letter-spacing: 2px;
+    width: 12em;
+
+	
+}
+
+.searchInputL {
+	background-color: transparent;
+	border: none;
+	color: #4d0081;
+	padding-left: 3px;
+	font-size: 18px;
+	font-family: "Architun";
+	letter-spacing: 2px;
+	width: 12em;
+  }
+
+.searchInput::placeholder {
+    color: #f0b7dd;
+	
+}
+.searchInputL::placeholder {
+	color: #4d0081;
+  }
+  
+.searchInput:active,
+.searchInput:focus,
+.searchInput:active {
+	border: none;
+	appearance: none;
+	outline: none;
+}
+
+.searchInputL:active,
+.searchInputL:focus,
+.searchInputL:active {
+  border: none;
+  appearance: none;
+  outline: none;
+}
+.svg{
+    width: 20px;
+    height: auto;
+}
+
+
+.infoBox{
+	width: 300px;
+	height: max-content;
+	background-color: #4f31aed1;
+	position: absolute;
+	margin-top: 5px;
+	right: -14%;
+	top: 99%;
+	border-radius: 10px;
+	border: 1.5px solid #f0b7dd;
+	visibility: hidden;
+}
+
+.search:focus-within > .infoBox{
+	visibility: visible;
+}
+
+.searchL:focus-within > .infoBox{
+	visibility: visible;
+}
+
+.listResult{
+	list-style: none;
+	font-size: 20px;
+	padding-left: 5px;
+}
+
+
+@media (max-width: 1200px) {
+.search, .searchL{
+	display: none;
+}
+  }

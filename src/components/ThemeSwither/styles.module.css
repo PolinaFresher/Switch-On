@@ -1,0 +1,204 @@
+.themeSwitcher {
+  box-sizing: border-box;
+  padding-top: 1%;
+  padding-left: 5px;
+}
+
+.theme__toggle {
+  font: 1em/1.5 Fredoka, sans-serif;
+}
+
+.theme {
+  display: flex;
+  align-items: center;
+  -webkit-tap-highlight-color: transparent;
+}
+.theme__fill,
+.theme__icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.theme__icon,
+.theme__toggle {
+  z-index: 1;
+}
+.theme__icon,
+.theme__icon_sun {
+  position: absolute;
+}
+.theme__icon {
+  display: block;
+  top: 0.6em;
+    left: 0.6em;
+    width: 1.1em;
+    height: 1.1em;
+}
+
+.theme__icon_sun {
+  border-radius: 50%;
+  box-shadow: 0.7em -0.4em 0 0.5em rgb(255, 221, 0) inset;
+  top: calc(50% - 0.6em);
+  left: calc(50% - 0.6em);
+  width: 1.2em;
+  height: 1.2em;
+  transition: box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
+  transform: scale(0.5);
+}
+
+.theme__icon_sun ~ .theme__icon_sun {
+  background-color: rgb(255, 221, 0);
+  border-radius: 0.05em;
+  box-shadow: none;
+  top: 50%;
+  left: calc(50% - 0.05em);
+  transform: rotate(0deg) translateY(0.5em);
+  transform-origin: 50% 0;
+  /* width: 0.1em;
+  height: 0.4em; */
+  width: 0.1em;
+    height: 0.3em;
+}
+.theme__icon_sun:nth-child(3) {
+  transform: rotate(45deg) translateY(0.5em);
+}
+.theme__icon_sun:nth-child(4) {
+  transform: rotate(90deg) translateY(0.5em);
+}
+.theme__icon_sun:nth-child(5) {
+  transform: rotate(135deg) translateY(0.5em);
+}
+.theme__icon_sun:nth-child(6) {
+  transform: rotate(180deg) translateY(0.5em);
+}
+.theme__icon_sun:nth-child(7) {
+  transform: rotate(225deg) translateY(0.5em);
+}
+.theme__icon_sun:nth-child(8) {
+  transform: rotate(270deg) translateY(0.5em);
+}
+.theme__icon_sun:nth-child(9) {
+  transform: rotate(315deg) translateY(0.5em);
+}
+.theme__label,
+.theme__toggle,
+.theme__toggle_wrap {
+  position: relative;
+}
+.theme__toggle,
+.theme__toggle:before {
+  display: block;
+}
+
+.theme__toggle {
+  background: url(assets/images/skyday.jpg);
+  background-size: cover;
+  background-position-y: center;
+  border-radius: 25% / 50%;
+  padding: 0.15em;
+  width: 5.2em;
+  height: 2.3em;
+  border: 1px solid #1e1455;
+  -webkit-appearance: none;
+  appearance: none;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.15s ease-in-out,
+    transform 0.3s ease-in-out;
+}
+
+.theme__toggle:before {
+  background-color: hsl(200deg 87% 61%);
+  border: 1px solid #fddf1a;
+  border-radius: 50%;
+  content: "";
+  /* width: 2.3em;
+  height: 2.3em; */
+  width: 1.8em;
+	  height: 1.8em;
+  
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.theme__toggle:focus {
+  box-shadow: 0 0 0 0.125em var(--primary);
+  outline: transparent;
+}
+
+.theme__toggle:checked {
+  background: url(assets/images/night-sky.jpg);
+  background-size: cover;
+}
+.theme__toggle:checked:before,
+.theme__toggle:checked ~ .theme__icon {
+  transform: translateX(2.9em);
+}
+.theme__toggle:checked:before {
+  background-color: #5536b4;
+}
+.theme__toggle:checked ~ .theme__fill {
+  transform: translateX(0);
+}
+.theme__toggle:checked ~ .theme__icon .theme__icon_sun:nth-child(1) {
+  box-shadow: 0.2em -0.2em 0 0.2em #fddf1a inset;
+  transform: scale(1);
+}
+.theme__toggle:checked ~ .theme__icon .theme__icon_sun ~ .theme__icon_sun {
+  opacity: 0;
+}
+.theme__toggle:checked ~ .theme__icon .theme__icon_sun:nth-child(2) {
+  transform: rotate(45deg) translateY(0.8em);
+}
+.theme__toggle:checked ~ .theme__icon .theme__icon_sun:nth-child(3) {
+  transform: rotate(90deg) translateY(0.8em);
+}
+.theme__toggle:checked ~ .theme__icon .theme__icon_sun:nth-child(4) {
+  transform: rotate(135deg) translateY(0.8em);
+}
+.theme__toggle:checked ~ .theme__icon .theme__icon_sun:nth-child(5) {
+  transform: rotate(180deg) translateY(0.8em);
+}
+.theme__toggle:checked ~ .theme__icon .theme__icon_sun:nth-child(6) {
+  transform: rotate(225deg) translateY(0.8em);
+}
+.theme__toggle:checked ~ .theme__icon .theme__icon_sun:nth-child(7) {
+  transform: rotate(270deg) translateY(0.8em);
+}
+.theme__toggle:checked ~ .theme__icon .theme__icon_sun:nth-child(8) {
+  transform: rotate(315deg) translateY(0.8em);
+}
+.theme__toggle:checked ~ .theme__icon .theme__icon_sun:nth-child(9) {
+  transform: rotate(360deg) translateY(0.8em);
+}
+
+
+@media (max-width: 1200px) {
+ 
+  .themeSwitcher {
+    box-sizing: border-box;
+    padding-top: 2%;
+    padding-left: 5px;
+  }
+  
+  
+}
+@media (max-width: 425px) {
+  .themeSwitcher {
+      
+      padding-top: 4.5%;
+     
+  }
+  }
+
+@media (max-width: 375px) {
+  .themeSwitcher {
+      
+      padding-top: 3.5%;
+     
+  }
+  }
+
+@media (max-width: 320px) {
+.themeSwitcher {
+    
+    padding-top: 5.5%;
+   
+}
+}

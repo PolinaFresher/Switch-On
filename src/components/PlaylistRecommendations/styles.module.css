@@ -1,0 +1,1193 @@
+.suggestions {
+  min-height: 1830px;
+  margin: 10% 85px 0 105px;
+
+}
+.playlistSingle {
+  list-style: none;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(9, minmax(156px, 1fr));
+  grid-auto-rows: 0;
+  grid-template-rows: 1fr;
+  gap: 1%;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.playlist {
+  margin-bottom: 8%;
+}
+
+.playlistName {
+
+  
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 5px;
+  color: transparent;
+  user-select: none;
+  -webkit-text-stroke: #fff;
+  -webkit-text-stroke-width: 2px;
+  text-shadow: 2px 2px 10px rgb(88, 88, 122);
+  transition: all 1.5s ease-in-out;
+  text-align: center;
+  letter-spacing: 0.2em;
+  animation: flicker 1s ease-in-out infinite alternate;
+
+ 
+}
+.playlistNameL {
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 5px;
+  color: transparent;
+  user-select: none;
+  -webkit-text-stroke: #000000;
+  -webkit-text-stroke-width: 2px;
+  text-shadow: 2px 2px 10px rgb(88, 88, 122);
+  transition: all 1.5s ease-in-out;
+  text-align: center;
+  letter-spacing: 0.2em;
+  animation: flicker4 1s ease-in-out infinite alternate;
+}
+
+.playlistNameTwo {
+  
+
+  padding-top: 2%;
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 5px;
+  color: transparent;
+  user-select: none;
+  -webkit-text-stroke: #fff;
+  -webkit-text-stroke-width: 2px;
+  
+  text-shadow: 2px 2px 10px rgb(0, 34, 255);
+  transition: all 1.5s ease-in-out;
+  text-align: center;
+  letter-spacing: 0.2em;
+  animation: flicker2 0.8s ease-in-out infinite alternate;
+
+   /* для светлой */
+   /* -webkit-text-stroke: #480064; */
+   
+}.playlistNameTwoL {
+  padding-top: 2%;
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 5px;
+  color: transparent;
+  user-select: none;
+  -webkit-text-stroke: #480064;
+  -webkit-text-stroke-width: 2px;
+  text-shadow: 2px 2px 10px rgb(0, 34, 255);
+  transition: all 1.5s ease-in-out;
+  text-align: center;
+  letter-spacing: 0.2em;
+  animation: flicker5 0.8s ease-in-out infinite alternate;
+}
+.playlistNameThree {
+   
+
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 5px;
+  color: transparent;
+  user-select: none;
+ 
+  -webkit-text-stroke: #fff;
+  -webkit-text-stroke-width: 2px;
+  text-shadow: 2px 2px 10px rgb(225, 255, 0);
+  transition: all 1.5s ease-in-out;
+  text-align: center;
+  letter-spacing: 0.2em;
+  animation: flicker6 0.5s ease-in-out infinite alternate;
+
+  /* для светлой */
+   /* -webkit-text-stroke: #ff6f08; */
+  
+}
+.playlistNameThreeL {
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 5px;
+  color: transparent;
+  user-select: none;
+  -webkit-text-stroke: #ff6f08;
+  -webkit-text-stroke-width: 2px;
+  text-shadow: 2px 2px 10px rgb(225, 255, 0);
+  transition: all 1.5s ease-in-out;
+  text-align: center;
+  letter-spacing: 0.2em;
+  animation: flicker6 0.5s ease-in-out infinite alternate;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  user-select: none;
+  margin: 50px;
+  padding: 25px 28px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-family: "QueensidesMedium";
+  border-radius: 10px;
+  position: relative;
+  left: 85%;
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 2px solid whitesmoke;
+  background: linear-gradient(
+    to right,
+    rgba(157, 157, 157, 0.1) 1%,
+    transparent 40%,
+    transparent 60%,
+    rgba(215, 215, 215, 0.1) 100%
+  );
+  color: whitesmoke;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.4),
+    0 0 9px 3px rgba(255, 255, 255, 0.1);
+  transition: ease-out 0.3s;
+
+
+   /* для светлой */
+   /* border: 2px solid black;
+   color: #000000;
+   box-shadow: none;
+   background: transparent; */
+}
+
+.buttonL {
+  display: flex;
+  align-items: center;
+  user-select: none;
+  margin: 50px;
+  padding: 25px 28px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-family: "QueensidesMedium";
+  border-radius: 10px;
+  position: relative;
+  left: 85%;
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 2px solid black;
+  background: transparent;
+  color: #000000;
+  box-shadow: none;
+  transition: ease-out 0.3s;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(84, 84, 84, 0.502);
+  color: aliceblue;
+
+  /* для светлой */
+  /* color: #000000; */
+}
+
+.buttonL:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(84, 84, 84, 0.502);
+  color: #000000;
+}
+
+.button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(0.9);
+}
+.buttonL:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(0.9);
+}
+
+.buttonTwo {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  padding: 25px 28px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-family: "QueensidesMedium";
+  border-radius: 10px;
+  position: relative;
+  left: 85%;
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 2px solid rgb(63, 0, 198);
+  background: linear-gradient(
+    to right,
+    rgba(62, 52, 86, 0.46) 1%,
+    transparent 40%,
+    transparent 60%,
+    rgba(74, 61, 139, 0.35) 100%
+  );
+  color: rgb(146, 134, 255); 
+   box-shadow: inset 0 0 10px rgba(89, 2, 240, 0.325),
+    0 0 9px 3px rgba(69, 11, 216, 0.178);
+  transition: ease-out 0.3s;
+
+/* для светлой */
+  /* color: rgb(37 9 94);
+  box-shadow: none;
+  background: transparent; */
+}
+.buttonTwo:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(35, 13, 145, 0.499);
+  color: aliceblue;
+
+  /* для светлой */
+  /* color: rgb(37 9 94); */
+}
+
+.buttonTwoL {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  padding: 25px 28px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-family: "QueensidesMedium";
+  border-radius: 10px;
+  position: relative;
+  left: 85%;
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 2px solid rgb(63, 0, 198);
+  background: transparent;
+  color: rgb(37 9 94);
+  box-shadow: none;
+  transition: ease-out 0.3s;
+}
+
+.buttonTwoL:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(35, 13, 145, 0.499);
+  color: rgb(37 9 94);
+}
+
+.buttonTwo:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(29, 14, 124, 0.2);
+  transform: scale(0.9);
+}
+.buttonTwoL:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(29, 14, 124, 0.2);
+  transform: scale(0.9);
+}
+.buttonThree {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  padding: 25px 28px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-decoration: none;
+  font-family: "QueensidesMedium";
+  border-radius: 10px;
+  position: relative;
+  left: 85%;
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 2px solid rgb(229, 176, 0);
+  background: linear-gradient(
+    to right,
+    rgba(91, 85, 52, 0.399) 1%,
+    transparent 40%,
+    transparent 60%,
+    rgba(139, 127, 61, 0.35) 100%
+  );
+  color: rgba(251, 226, 0, 0.881);
+  box-shadow: inset 0 0 10px rgba(240, 236, 2, 0.325),
+    0 0 9px 3px rgba(216, 199, 11, 0.178);
+  transition: ease-out 0.3s;
+
+  /* для светлой */
+  /* color: #ff964a;
+  box-shadow: none;
+  background: transparent; */
+}
+
+.buttonThreeL {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  padding: 25px 28px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-decoration: none;
+  font-family: "QueensidesMedium";
+  border-radius: 10px;
+  position: relative;
+  left: 85%;
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 2px solid rgb(229, 176, 0);
+  background: transparent;
+  color: #ff964a;
+  box-shadow: none;
+  transition: ease-out 0.3s;
+}
+
+.buttonThree:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(131, 97, 22, 0.371);
+  color: aliceblue;
+
+  /* для светлой */
+  /* color: #ff964a; */
+}
+
+.buttonThreeL:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(131, 97, 22, 0.371);
+  color: #ff964a;
+}
+
+.buttonThree:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(124, 98, 14, 0.2);
+  transform: scale(0.9);
+}
+.buttonThreeL:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(124, 98, 14, 0.2);
+  transform: scale(0.9);
+}
+
+
+.box {
+  border-radius: 10px;
+  background: #2d2b30;
+  box-shadow: inset -23px -23px 45px #1d1c1f, inset 23px 23px 45px #3d3a41;
+  padding-bottom: 20px;
+  width: 156px;
+  height: 210px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;   
+  align-items: center;
+  flex-direction: column;
+
+/* для светлой */
+  /* background: #544380;
+box-shadow: inset 5px -5px 10px #423464,
+            inset -5px 5px 10px #66529c; */
+  
+          
+}
+.boxL {
+  border-radius: 10px;
+  background: #544380;
+  box-shadow: inset 5px -5px 10px #423464, inset -5px 5px 10px #66529c;
+  padding-bottom: 20px;
+  width: 156px;
+  height: 210px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+}
+.album {
+
+  color: #cac8ca;
+  font-size: 15px;
+  text-align: center;
+  text-align: center;
+  letter-spacing: 0.8px;
+  font-family: "Neoteric";
+  /* для светлой */
+  /* color: aliceblue; */
+}
+.albumL {
+
+  color: aliceblue;
+  font-size: 15px;
+  text-align: center;
+  text-align: center;
+  letter-spacing: 0.8px;
+  font-family: "Neoteric";
+}
+.year {
+  color: #bdbec0;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-family: "QueensidesMedium";
+
+  /* для светлой */
+  /* color: aliceblue; */
+}
+.yearL {
+  color: aliceblue;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-family: "QueensidesMedium";
+}
+
+.genre {
+  color: #bdbec0;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Neoteric";
+  letter-spacing: 2px;
+
+  /* для светлой */
+  /* color: aliceblue; */
+}
+.genreL {
+  color: aliceblue;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Neoteric";
+  letter-spacing: 2px;
+}
+.image {
+  width: 90%;
+  border-radius: 10px;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0.5;
+    text-shadow: 2px 2px 10px rgb(88, 88, 122);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px rgb(88, 88, 122);
+  } 
+
+
+   /* для светлой */
+  /* 0% {
+    opacity: 0.7;
+    text-shadow: 2px 2px 10px rgb(166 166 191);
+}
+
+100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px rgb(0 0 0 / 49%);
+}
+   */
+}
+@keyframes flicker4 {
+  0% {
+    opacity: 0.7;
+    text-shadow: 2px 2px 10px rgb(255, 255, 255);
+  }
+
+  100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px rgba(91, 91, 91, 0.597);
+  }
+}
+@keyframes flicker3 {
+  0% {
+    opacity: 0.4;
+    text-shadow: 2px 2px 10px rgb(225, 255, 0);
+  }
+  50% {
+    opacity: 0.7;
+    text-shadow: 2px 2px 15px rgb(255, 196, 0);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px rgb(255, 106, 0);
+  }
+}
+
+@keyframes flicker6 {
+  0% {
+    opacity: 0.6;
+    text-shadow: 2px 2px 10px rgb(225 255 0 / 52%);
+  }
+
+  50% {
+    opacity: 0.7;
+    text-shadow: 2px 2px 15px rgb(255 196 0);
+  }
+
+  100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px rgb(255 106 0 / 52%);
+  }
+}
+
+  /* для светлой */
+  /* @keyframes flicker6{
+  0% {
+    opacity: 0.6;
+    text-shadow: 2px 2px 10px rgba(60, 0, 255, 0.52);
+}
+
+50% {
+    opacity: 0.7;
+    text-shadow: 2px 2px 15px rgb(15, 181, 68);
+}
+100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px rgb(255 106 0 / 52%);
+}
+} */
+
+
+@keyframes flicker2 {
+  0% {
+    opacity: 0.5;
+    text-shadow: 2px 2px 10px rgb(38, 2, 139);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px rgb(38, 2, 139);
+  }
+
+  /* для светлой */
+  /* 0% {
+    opacity: 0.7;
+    text-shadow: 2px 2px 10px rgb(163 21 174 / 41%);
+}
+100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px rgb(38 2 139 / 35%);
+} */
+}
+
+@keyframes flicker5 {
+  0% {
+    opacity: 0.7;
+    text-shadow: 2px 2px 10px rgb(163 21 174 / 41%);
+  }
+
+  100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px rgb(38 2 139 / 35%);
+  }
+
+}
+@media (max-width: 1642px) {
+  .playlistSingle {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    align-items: baseline;
+    row-gap: 8%;
+  }
+
+  .playlist {
+    margin-bottom: 22%;
+  }
+
+  .suggestions {
+    height: 149rem;
+  }
+}
+
+@media (max-width: 1605px) {
+  .playlistSingle {
+    align-items: baseline;
+    row-gap: 4%;
+  }
+
+  .playlist {
+    margin-bottom: 22%;
+  }
+
+  .suggestions {
+    height: 150rem;
+  }
+}
+
+@media (max-width: 1377px) {
+  .playlistSingle {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    align-items: baseline;
+    row-gap: 4%;
+  }
+
+  .playlist {
+    margin-bottom: 35%;
+  }
+
+  .suggestions {
+    height: 1900px;
+    margin: 10% 65px 0 105px;
+  }
+
+  .button,
+  .buttonTwo,
+  .buttonThree {
+    margin: 5px;
+    margin-bottom: 4%;
+    margin-top: 3%;
+  }
+
+  .suggestions {
+    height: 162rem;
+  }
+}
+
+@media (max-width: 1278px) {
+  .playlistSingle {
+    column-gap: 4%;
+    row-gap: 8%;
+  }
+
+  .button,
+  .buttonTwo,
+  .buttonThree {
+    margin-bottom: 3%;
+    padding: 15px 18px;
+  }
+
+  .suggestions {
+    height: 155rem;
+  }
+  .playlistNameThree,
+  .playlistName {
+    margin-bottom: 6%;
+  }
+  .playlist {
+    margin-bottom: 30%;
+  }
+}
+
+@media (max-width: 1134px) {
+  .playlistSingle {
+    column-gap: 6%;
+  }
+
+  .suggestions {
+    height: 152rem;
+  }
+
+  .playlist {
+    margin-bottom: 33%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .playlistSingle {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: repeat(3, minmax(0, 2fr));
+    align-items: baseline;
+    row-gap: 4%;
+  }
+
+  .button,
+  .buttonTwo,
+  .buttonThree {
+    margin-bottom: 4%;
+    padding: 12px 15px;
+    margin-left: -7%;
+  }
+
+  .suggestions {
+    height: 199rem;
+  }
+  .playlistNameThree,
+  .playlistName {
+    margin-bottom: 4%;
+  }
+  .playlist {
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 800px) {
+  .playlistSingle {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+    align-items: baseline;
+    row-gap: 8%;
+    column-gap: 6%;
+  }
+
+  .button,
+  .buttonTwo,
+  .buttonThree {
+    margin: -12%;
+    margin-bottom: 4%;
+    margin-top: 20px;
+    padding: 15px 16px;
+  }
+
+  .suggestions {
+    height: 211rem;
+  }
+
+  .playlistNameThree,
+  .playlistName {
+    margin-top: 26%;
+  }
+}
+
+@media (max-width: 675px) {
+  .playlistSingle {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+    row-gap: 10%;
+    column-gap: 14%;
+  }
+
+  .box {
+    width: 165px;
+    height: 200px;
+  }
+
+  .image {
+    width: 140px;
+    height: 140px;
+  }
+
+  .playlistName,
+  .playlistNameThree,
+  .playlistNameTwo {
+    margin-top: -8%;
+  }
+
+  .album {
+    font-size: 13px;
+  }
+  .playlist {
+    margin-bottom: 15rem;
+  }
+  .button,
+  .buttonTwo,
+  .buttonThree {
+    margin: -12%;
+    margin-bottom: 7%;
+    margin-top: 5%;
+  }
+
+  .suggestions {
+    height: 228rem;
+  }
+}
+
+@media (max-width: 627px) {
+  .playlistSingle {
+    grid-template-columns: repeat(2, minmax(185px, 1fr));
+    grid-template-rows: repeat(5, minmax(240px, 1fr));
+    row-gap: 5%;
+    column-gap: 4%;
+  }
+
+  .box {
+    width: 185px;
+    height: 210px;
+  }
+
+  .image {
+    width: 155px;
+    height: 155px;
+  }
+
+  .album {
+    font-size: 15px;
+    padding-top: 2%;
+  }
+  .playlist {
+    margin-bottom: 24rem;
+  }
+  .button,
+  .buttonTwo,
+  .buttonThree {
+    margin: -14%;
+    margin-bottom: 7%;
+    margin-top: 5%;
+  }
+
+  .suggestions {
+    height: 348rem;
+  }
+}
+
+@media (max-width: 505px) {
+  .playlistSingle {
+    grid-template-columns: repeat(2, minmax(180px, 1fr));
+    grid-template-rows: repeat(5, minmax(240px, 1fr));
+    row-gap: 4%;
+    column-gap: 5%;
+  }
+
+  .box {
+    width: 180px;
+    height: 210px;
+  }
+
+  .image {
+    width: 152px;
+    height: 152px;
+  }
+
+  .playlist {
+    margin-bottom: 20rem;
+  }
+
+  .button,
+  .buttonTwo,
+  .buttonThree {
+    font-size: 12px;
+    padding: 12px 14px;
+  }
+
+  .suggestions {
+    height: 342rem;
+  }
+}
+
+@media (max-width: 475px) {
+  .playlistSingle {
+    grid-template-rows: repeat(4, 155px);
+    grid-template-columns: 155px 155px;
+    display: grid;
+
+    row-gap: 6rem;
+    column-gap: 7%;
+  }
+
+  .album {
+    font-size: 13px;
+  }
+
+  .box {
+    width: 155px;
+    height: 185px;
+  }
+
+  .image {
+    width: 140px;
+    height: 140px;
+  }
+
+  .playlistName,
+  .playlistNameThree,
+  .playlistNameTwo {
+    font-size: 30px;
+    animation: none;
+    text-shadow: none;
+  }
+
+  .button,
+  .buttonTwo,
+  .buttonThree {
+    margin: -35%;
+    margin-bottom: 8%;
+    margin-top: 6%;
+    padding: 15px 18px;
+  }
+  .year {
+    font-size: 10px;
+  }
+
+  .genre {
+    font-size: 11px;
+  }
+
+  .suggestions {
+    height: 282rem;
+  }
+  .playlist {
+    margin-bottom: 15rem;
+  }
+}
+
+@media (max-width: 435px) {
+  .playlistSingle {
+    grid-template-rows: repeat(4, 145px);
+    grid-template-columns: 145px 145px;
+    row-gap: 6rem;
+    column-gap: 7%;
+  }
+
+  .album {
+    font-size: 13px;
+  }
+
+  .box {
+    width: 145px;
+    height: 185px;
+  }
+
+  .image {
+    width: 132px;
+    height: 132px;
+  }
+
+  .playlistName,
+  .playlistNameThree,
+  .playlistNameTwo {
+    font-size: 33px;
+    animation: none;
+    text-shadow: none;
+  }
+
+  .button,
+  .buttonTwo,
+  .buttonThree {
+    margin: -28%;
+    margin-bottom: 8%;
+    margin-top: 6%;
+    padding: 15px 18px;
+  }
+
+  .suggestions {
+    height: 274rem;
+  }
+  .playlist {
+    margin-bottom: 16rem;
+  }
+}
+
+@media (max-width: 408px) {
+  .playlistSingle {
+    grid-template-rows: repeat(4, 138px);
+    grid-template-columns: 138px 138px;
+    row-gap: 6rem;
+    column-gap: 5%;
+  }
+
+  .album {
+    font-size: 13px;
+  }
+
+  .box {
+    width: 138px;
+    height: 185px;
+  }
+
+  .image {
+    width: 128px;
+    height: 128px;
+  }
+
+  .playlistName,
+  .playlistNameThree,
+  .playlistNameTwo {
+    font-size: 36px;
+    animation: none;
+    text-shadow: none;
+  }
+
+  .suggestions {
+    height: 275rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .playlistSingle {
+    margin-left: 8%;
+    grid-template-rows: repeat(4, 133px);
+    grid-template-columns: 133px 133px;
+    row-gap: 6rem;
+    column-gap: 5%;
+  }
+
+  .album {
+    font-size: 12px;
+  }
+
+  .box {
+    width: 133px;
+    height: 185px;
+  }
+
+  .image {
+    width: 122px;
+    height: 122px;
+  }
+
+  .playlistName,
+  .playlistNameThree,
+  .playlistNameTwo {
+    font-size: 36px;
+    animation: none;
+    text-shadow: none;
+  }
+
+  .button,
+  .buttonTwo,
+  .buttonThree {
+    margin: -28%;
+    margin-bottom: 8%;
+    margin-top: 6%;
+    padding: 12px 15px;
+  }
+
+  .suggestions {
+    height: 275rem;
+  }
+}
+
+@media (max-width: 358px) {
+  .playlistSingle {
+    margin-left: 9%;
+    grid-template-rows: repeat(4, 127px);
+    grid-template-columns: 127px 127px;
+    row-gap: 6rem;
+    column-gap: 5%;
+  }
+
+  .album {
+    font-size: 12px;
+  }
+
+  .box {
+    width: 127px;
+    height: 185px;
+  }
+
+  .image {
+    width: 115px;
+    height: 115px;
+  }
+
+  .playlistName,
+  .playlistNameThree,
+  .playlistNameTwo {
+    font-size: 36px;
+    animation: none;
+    text-shadow: none;
+  }
+
+  .button,
+  .buttonTwo,
+  .buttonThree {
+    margin: -28%;
+    margin-bottom: 8%;
+    margin-top: 6%;
+    padding: 12px 15px;
+  }
+
+  .suggestions {
+    height: 275rem;
+  }
+}
+
+@media (max-width: 358px) {
+  .playlistSingle {
+    margin-left: 9%;
+    grid-template-rows: repeat(4, 127px);
+    grid-template-columns: 127px 127px;
+    row-gap: 6rem;
+    column-gap: 5%;
+  }
+
+  .album {
+    font-size: 12px;
+  }
+
+  .box {
+    width: 127px;
+    height: 185px;
+  }
+
+  .image {
+    width: 115px;
+    height: 115px;
+  }
+
+  .playlistName,
+  .playlistNameThree,
+  .playlistNameTwo {
+    font-size: 36px;
+    animation: none;
+    text-shadow: none;
+  }
+
+  .button,
+  .buttonTwo,
+  .buttonThree {
+    margin: -28%;
+    margin-bottom: 8%;
+    margin-top: 6%;
+    padding: 12px 15px;
+  }
+
+  .suggestions {
+    height: 275rem;
+  }
+}
+
+@media (max-width: 342px) {
+  .playlistSingle {
+    margin-left: 14%;
+    grid-template-rows: repeat(4, 117px);
+    grid-template-columns: 118px 117px;
+    row-gap: 8rem;
+    column-gap: 5%;
+  }
+
+  .album {
+    font-size: 10px;
+  }
+
+  .box {
+    width: 117px;
+    height: 180px;
+  }
+
+  .image {
+    width: 106px;
+    height: 106px;
+  }
+
+  .playlistName,
+  .playlistNameThree,
+  .playlistNameTwo {
+    font-size: 33px;
+    animation: none;
+    text-shadow: none;
+    margin-left: -19px;
+  }
+
+  .button,
+  .buttonTwo,
+  .buttonThree {
+    margin: -28%;
+    margin-bottom: 8%;
+    margin-top: 6%;
+    padding: 12px 15px;
+  }
+
+  .suggestions {
+    height: 283rem;
+  }
+}

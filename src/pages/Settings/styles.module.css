@@ -1,0 +1,287 @@
+.settings {
+  color: aliceblue;
+  flex-direction: column;
+  display: flex;
+  margin: 2% 11% 0 13%;
+  background-color: #412a49;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid aliceblue;
+  box-shadow: 0px 0px 8px rgb(255 255 255 / 59%) inset;
+  border-radius: 20px;
+  margin-bottom: 2%;
+  padding-bottom: 5%;
+}
+.settingsL {
+  color: aliceblue;
+  flex-direction: column;
+  display: flex;
+  margin: 2% 11% 0 13%;
+  background-color: #2f2664;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid aliceblue;
+  box-shadow: 0px 0px 8px rgb(255 255 255 / 59%) inset;
+  border-radius: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-bottom: 2%;
+  padding-bottom: 5%;
+}
+
+.btn {
+  background-color: #563063;
+  color: aliceblue;
+  border-radius: 10px;
+  border: 1px solid aliceblue;
+  padding: 15px 30px 15px 30px;
+  font-size: 14px;
+  /* для светлой */
+  /* background-color: #ffffff33; */
+}
+.btnL {
+  background-color: #ffffff33;
+  color: aliceblue;
+  border-radius: 10px;
+  border: 1px solid aliceblue;
+  padding: 15px 30px 15px 30px;
+  font-size: 14px;
+}
+.userInfo {
+  display: flex;
+  gap: 10px;
+  padding-top: 15px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid aliceblue;
+}
+
+.userPic {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: #000000;
+  /* для светлой */
+  /* background-color: #ffffff; */
+}
+
+.userPic {
+  text-align: center;
+  display: flex;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.userPicL {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.userPicL {
+  text-align: center;
+  display: flex;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.userName {
+  padding-bottom: 15px;
+  font-size: 38px;
+  color: aliceblue;
+  font-family: "Miracle", "Architun";
+}
+
+.upload {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  border: none;
+}
+
+.form {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+
+.label {
+  color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.settingsInput {
+  background-color: transparent;
+  margin-left: 120px;
+  width: 250px;
+  height: 30px;
+  border: 2px solid transparent;
+  outline: none;
+  border-bottom: 2px solid #ffffff;
+  caret-color: #f700da;
+  color: whitesmoke;
+  padding: 5px;
+  transition: 0.5s linear;
+  font-family: monospace;
+  letter-spacing: 1px;
+  margin-bottom: 5%;
+}
+
+.settingsInput::placeholder{
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.settingsInput {
+ 
+  font-size: 22px;
+}
+
+@media (max-width: 540px) {
+  .settings,
+  .settingsL {
+    margin: 2% 7% 0 14%;
+
+    border-radius: 20px;
+    margin-bottom: 2%;
+    padding-bottom: 5%;
+  }
+
+  .settingsInput {
+    margin-left: 90px;
+    width: 240px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 470px) {
+  .settings,
+  .settingsL {
+    margin: 2% 4% 0 15%;
+
+    border-radius: 20px;
+    margin-bottom: 2%;
+    padding-bottom: 5%;
+  }
+
+  .userName {
+    font-size: 30px;
+  }
+
+  .settingsInput {
+    margin-left: 80px;
+    width: 240px;
+    height: 30px;
+  }
+
+  .settingsInput::placeholder {
+    font-size: 15px;
+  }
+
+  .label {
+    font-size: 17px;
+  }
+}
+
+
+@media (max-width: 416px) {
+  .settings,
+  .settingsL {
+    margin: 2% 4% 0 16%;
+
+  }
+
+  .settingsInput {
+    margin-left: 70px;
+    width: 220px;
+    height: 30px;
+  }
+
+ 
+}
+
+
+@media (max-width: 389px) {
+  .settings,
+  .settingsL {
+    margin: 2% 3% 0 17%;
+
+  }
+
+  .userPic, .userPicL{
+    width: 180px;
+  height: 180px;
+  }
+
+  .settingsInput {
+    margin-left: 60px;
+    width: 200px;
+    height: 25px;
+  }
+
+ 
+}
+
+
+
+@media (max-width: 366px) {
+  .settings,
+  .settingsL {
+    margin: 2% 3% 0 19%;
+
+  }
+
+  .userPic, .userPicL{
+    width: 160px;
+  height: 160px;
+  }
+
+  .settingsInput {
+    margin-left: 60px;
+    width: 170px;
+    height: 20px;
+  }
+
+ 
+}
+
+@media (max-width: 338px) {
+  .settings,
+  .settingsL {
+    margin: 2% 3% 0 20%;
+
+  }
+
+  .userPic, .userPicL{
+    width: 150px;
+  height: 150px;
+  }
+
+  .settingsInput {
+    margin-left: 60px;
+    width: 150px;
+    height: 20px;
+  }
+
+ 
+}

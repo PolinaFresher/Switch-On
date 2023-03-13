@@ -1,0 +1,88 @@
+.artistLine{
+    height: 130px;
+    z-index: -5;
+}
+
+
+.line_horizontal{
+    position: relative;
+z-index: 200;
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+overflow: hidden;
+width: 100%;
+/* height: 40px; */
+height: 70px;
+-webkit-box-pack: start;
+-webkit-justify-content: flex-start;
+-ms-flex-pack: start;
+justify-content: flex-start;
+-webkit-box-align: center;
+-webkit-align-items: center;
+-ms-flex-align: center;
+align-items: center;
+background: yellow;
+}
+
+.css::before{
+    content: " ";
+    display: table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
+
+}
+
+.move::after{
+    clear: both;
+}
+
+.marquee {
+    margin-right: 3vw;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    color: #3f03e3;
+    text-transform: uppercase;
+   
+      font-size: 22px;
+      font-family: "AubreyPro";
+      font-weight: bold;
+}
+
+.track_horizontal {
+    /* position: absolute; */
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 50s linear infinite;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    row-gap: 10px;
+    
+}
+
+.svg{
+    height: 55px;
+}
+  
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  
+
+

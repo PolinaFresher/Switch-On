@@ -1,0 +1,527 @@
+.playlist {
+  margin: 2% 19% 7% 19%;
+  padding-bottom: 37px;
+  border-radius: 48px;
+  border: 2px solid #ffffff;
+  box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.59) inset;
+  background-color: #1716164a;
+}
+.playlistL {
+  margin: 2% 19% 7% 19%;
+  padding-bottom: 37px;
+  border-radius: 48px;
+  border: 2px solid #312865;
+  box-shadow: -5px 5px 10px #5e4b8f2c inset;
+  background-color: #6861c194;
+}
+.userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: 2px solid #ffffff;
+}
+
+.userName {
+  margin-top: 9%;
+  font-family: "QueensidesMedium";
+  font-size: 36px;
+  color: aliceblue;
+}
+
+.txt {
+  font-family: "Anticva-Regular";
+  font-size: 12px;
+  color: #9a9a9a;
+  letter-spacing: 3px;
+
+  /* для светлой */
+  color: #ffffff;
+}
+.txtL {
+  font-family: "Anticva-Regular";
+  font-size: 12px;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+
+.playlistName {
+  font-family: "Anticva-Regular";
+  font-size: 32px;
+  letter-spacing: 3px;
+  padding-bottom: 30px;
+}
+.user {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  margin: 2%;
+}
+
+.artist,
+.title {
+  font-family: "Iinglobal";
+  letter-spacing: 1.5px;
+}
+
+.order {
+  font-family: "Iinglobal";
+}
+
+.duration {
+  padding-top: 10px;
+  font-family: "Iinglobal";
+}
+.playlistInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-size: 20px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.quantityInfo,
+.durationInfo {
+  font-family: "Inconsolata";
+  color: #9a9a9a;
+  font-size: 18px;
+
+  /* для светлой */
+  /* color: #ffffff; */
+}
+.quantityInfoL,
+.durationInfoL {
+  font-family: "Inconsolata";
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.time {
+  font-size: 14px;
+  /* padding-right: 5%; */
+}
+
+.heart:hover * {
+  fill: #df02c4;
+  stroke: #ffffff;
+}
+/* .heart:active * {
+  fill: #df02c4;
+  stroke: #ffffff;
+} */
+.heartActive * {
+  width: 30px;
+  height: 30px;
+  fill: #df02c4;
+  stroke: #ffffff;
+}
+
+.img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: #3f2c46;
+
+  /* для светлой */
+  /* background-color: #ffffff; */
+}
+
+.imgL {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: #ffffff;
+
+  /* для светлой */
+  /* background-color: #ffffff; */
+}
+.heart {
+  width: 30px;
+  height: 30px;
+}
+
+.clock {
+  width: 23px;
+  height: 23px;
+}
+
+.table {
+  border-radius: 48px;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.column:nth-child(1) {
+  width: 1%;
+}
+
+.column:nth-child(2) {
+  width: 17%;
+}
+
+.column:nth-child(3) {
+  width: 66%;
+}
+.column:nth-child(4) {
+  width: 8%;
+}
+.column:nth-child(5) {
+  width: 8%;
+}
+
+.playBtn {
+  color: aliceblue;
+  height: 65px;
+  width: 115px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  font-size: 22px;
+  border: 2px solid #ffaef8;
+  box-shadow: 2px 3px 3px rgba(180, 102, 210, 0.413);
+  box-shadow: 1px;
+  background-color: transparent;
+  font-family: "GarciaMarquez";
+  text-shadow: 0 0 4px #fff;
+  animation: glow 2500ms linear infinite 2000ms;
+}
+
+.playBtnL {
+  color: aliceblue;
+  height: 65px;
+  width: 115px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  font-size: 22px;
+  border: 2px solid #5536b4;
+  box-shadow: 2px 3px 3px rgba(180, 102, 210, 0.413);
+  box-shadow: 1px;
+  background-color: #7f68b86d;
+  font-family: "GarciaMarquez";
+  text-shadow: 0 0 4px #fff;
+  animation: glow 2500ms linear infinite 2000ms;
+}
+
+@keyframes glow {
+  50% {
+    text-shadow: 0 0 6px rgb(0, 251, 255);
+  }
+  75% {
+    text-shadow: 0 0 8px rgb(255, 0, 225);
+  }
+}
+.playBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(138, 77, 146, 0.293);
+
+  border: 2px solid rgb(218, 3, 251);
+}
+
+.playBtn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(159, 88, 170, 0.2);
+  transform: scale(0.9);
+}
+.playBtnL:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(138, 77, 146, 0.293);
+
+  border: 2px solid rgb(218, 3, 251);
+}
+
+.playBtnL:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(159, 88, 170, 0.2);
+  transform: scale(0.9);
+}
+
+.table {
+  width: 100%;
+}
+
+th {
+  border-bottom: 1px solid #d4d4d488;
+
+  text-align: center;
+
+  padding: 5px 5px 1px 0px;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-bottom: 12px;
+
+  color: #9a9a9a;
+}
+
+tr {
+  border-bottom: 0.1px solid rgb(177, 177, 177);
+}
+
+td {
+  height: 70px;
+  text-align: center;
+}
+
+td:nth-child(1),
+td:nth-child(3),
+th:nth-child(1),
+th:nth-child(3) {
+  text-align: left;
+  padding-left: 15px;
+}
+.tr:hover {
+  background-color: #3f2c468d;
+}
+
+.trL:hover {
+  background-color: #3f2e7787;
+  outline: 1px solid rgb(65, 7, 153);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.image {
+  width: 85px;
+  height: auto;
+  border-radius: 10px;
+  padding: 3px;
+}
+.cover:nth-child(1) {
+  margin-top: 4px;
+}
+
+@media (max-width: 1378px) {
+  .playlist,
+  .playlistL {
+    margin: 2% 11% 7% 13%;
+  }
+}
+
+@media (max-width: 1036px) {
+  .playlist,
+  .playlistL {
+    margin: 2% 7% 7% 12%;
+  }
+
+  .time {
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 771px) {
+  .playlist,
+  .playlistL {
+    margin: 2% 7% 7% 12%;
+  }
+
+  .time {
+    padding-right: 10px;
+  }
+
+  .playBtn,
+  .playBtnL {
+    height: 55px;
+    width: 85px;
+
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 688px) {
+  .playlist,
+  .playlistL {
+    margin: 2% 5% 7% 12%;
+  }
+
+  .time {
+    padding-right: 10px;
+  }
+
+  .playBtn,
+  .playBtnL {
+    height: 55px;
+    width: 75px;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  .artist,
+  .title {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  td:nth-child(1),
+  td:nth-child(3),
+  th:nth-child(1),
+  th:nth-child(3) {
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  .img,
+  .imgL {
+    width: 160px;
+    height: 160px;
+  }
+
+  .playlistName {
+    font-size: 20px;
+  }
+
+  th {
+    font-size: 14px;
+  }
+
+  .duration {
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .playlist,
+  .playlistL {
+    margin: 3% 4% 7% 14%;
+  }
+
+  .artist,
+  .title {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+  }
+
+  .image {
+    width: 65px;
+    height: auto;
+    border-radius: 10px;
+    padding: 3px;
+  }
+
+  .img,
+  .imgL {
+    width: 160px;
+    height: 160px;
+  }
+
+  .quantityInfo,
+  .durationInfo {
+    font-size: 14px;
+  }
+
+  .userName {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 471px) {
+  .playlist,
+  .playlistL {
+    margin: 3% 5% 7% 16%;
+  }
+
+  .img,
+  .imgL {
+    width: 110px;
+    height: 110px;
+  }
+  .playlistInfo {
+    gap: 10px;
+  }
+  .playBtn,
+  .playBtnL {
+    height: 35px;
+    width: 50px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  .time,
+  .duration {
+    display: none;
+  }
+
+  .heart,
+  .heartActive {
+    width: 23px;
+    height: 23px;
+  }
+
+  td:nth-child(1),
+  td:nth-child(3),
+  th:nth-child(1),
+  th:nth-child(3) {
+    font-size: small;
+  }
+}
+
+@media (max-width: 331px) {
+  .playlist,
+  .playlistL {
+    margin: 3% 5% 7% 21%;
+  }
+
+  .img,
+  .imgL {
+    width: 80px;
+    height: 80px;
+  }
+
+  .playlistName {
+    font-size: 13px;
+    padding-top: 3px;
+  }
+
+  .userName {
+    font-size: 16px;
+  }
+  .playlistInfo {
+    gap: 4px;
+  }
+  .playBtn,
+  .playBtnL {
+    height: 35px;
+    width: 50px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  .durationInfo,
+  .durationInfoL {
+    display: none;
+  }
+
+  .time,
+  .duration {
+    display: none;
+  }
+
+  .heart,
+  .heartActive {
+    width: 23px;
+    height: 23px;
+  }
+
+  td:nth-child(1),
+  td:nth-child(3),
+  th:nth-child(1),
+  th:nth-child(3) {
+    padding-left: 3px;
+    font-size: x-small;
+  }
+
+  .image {
+    width: 45px;
+    height: auto;
+    border-radius: 10px;
+    padding: 3px;
+  }
+}

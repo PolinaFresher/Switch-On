@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "QueensidesMedium";
+  src: url("assets/fonts/QueensidesMedium-x30zV.ttf") format("truetype");
+  font-style: normal;
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "Neoteric";
+  src: url("assets/fonts/Neoteric-32A8.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "RosmatikaRegular";
+  src: url("assets/fonts/RosmatikaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "AquireLight";
+  src: url("assets/fonts/AquireLight-YzE0o.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Cartesian";
+  src: url("assets/fonts/Cartesian-4B576.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "AboveDemoRegular";
+  src: url("assets/fonts/AboveDemoRegular-lJMd.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "QuiteMagicalRegular";
+  src: url("assets/fonts/QuiteMagicalRegular-8VA2.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "TheFuture";
+  src: url("assets/fonts/TheFuture-X3v0P.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Alltherollpersonaluse";
+  src: url("assets/fonts/Alltherollpersonaluse-DOJE0.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Miracle";
+  src: url("assets/fonts/Miracle.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Anticva-Regular";
+  src: url(" assets/fonts/Anticva-Regular.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "AquireLight";
+  src: url("assets/fonts/AquireLight-YzE0o.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "AubreyPro";
+  src: url("assets/fonts/AubreyPro.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GarciaMarquez";
+  src: url("assets/fonts/GarciaMarquez.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "AppleTea";
+  src: url("assets/fonts/AppleTea-jELql.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  src: url("assets/fonts/Inconsolata.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Iinglobal";
+  src: url("assets/fonts/inglobal.regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Architun";
+  src: url("assets/fonts/ArchitunMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "VlaShu";
+  src: url("assets/fonts/VlaShu.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

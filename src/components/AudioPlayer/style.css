@@ -1,0 +1,26 @@
+
+  .colorBackground{
+    background: linear-gradient(360deg, var(--active-color) 100px, transparent 100%)
+      no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    animation: colorChange 30s alternate infinite;
+  }
+  
+  
+  .playing {
+    animation: colorChange 30s alternate infinite;
+  }
+  
+  @keyframes colorChange {
+    from {
+      filter: hue-rotate(0deg);
+    }
+    to {
+      filter: hue-rotate(360deg);
+    }
+  }

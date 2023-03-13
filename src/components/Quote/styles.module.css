@@ -1,0 +1,93 @@
+.quote{
+    font-size: 45px;
+    user-select: none;
+}
+
+.author{
+    color:#d0d0ee;
+     /* для светлой */
+     /* color:#5b37a8; */
+
+}
+
+.headline {
+   
+     /* для светлой */
+     /* color: rgba(147, 18, 246, 0.338); */
+
+  display: flex;
+  justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10%;
+    font-weight: 900;
+    align-items: baseline;
+    margin: 0 2% 0 6%;
+      font-family: "AppleTea";
+    background: url(assets/images/universe.jpeg); 
+    background-color: rgb(219, 172, 255);
+    background-position-y:12%;
+  color: transparent;
+  background-clip: text;
+
+
+
+  
+   
+}
+
+
+
+@media (max-width: 1452px) {
+  .quote{
+    font-size: 40px;
+}
+}
+@media (max-width: 1211px) {
+  .quote{
+    font-size: 38px;
+    margin-left: 2%;
+    
+}
+}
+
+@media (max-width: 1011px) {
+  .quote{
+    font-size: 38px;
+    margin-left: 5%;
+    
+}
+}
+
+@media (max-width: 900px) {
+  .quote{
+    font-size: 38px;
+    margin-left: 6%;
+    
+}
+}
+
+@media (max-width: 726px) {
+  .quote{
+    font-size: 36px;
+    margin-left: 6%;
+    
+}
+}
+
+
+@media (max-width: 654px) {
+  .quote{
+    
+    margin-left: 12%;
+    
+}
+}
+
+
+@media (max-width: 415px) {
+  .quote{
+    padding-top: 5%;
+    margin-left: 18%;
+    
+}
+}
